@@ -126,19 +126,19 @@
         <h2>Fauna — Guia completo de espécies</h2>
         <p class="muted">Cada entrada traz habitat, comportamento, sinais, táticas de caça, método de domesticação e recompensas.</p>
 
-        <h3>Mamute (Elephas orossensis)</h3>
+        <h3>Mamute </h3>
         <p><b>Habitat:</b> Planícies e margens de rios. <b>Comportamento:</b> vive em bandos; adulto alfa acompanha a manada. <b>Sinais:</b> trilhas largas, pilhas de lama e restos de pastagem. <b>Táticas de caça/domesticação:</b> isolar jovens, usar iscas fermentadas, sedação gradual; domar exige reduzir confiança do alfa através de rituais. <b>Recompensas:</b> pele pesada, presas (para ferramentas), capacidade de montaria e aríete.</p>
 
-        <h3>Tigre-dente-de-sabre (Smilodon orossis)</h3>
+        <h3>Tigre-dente-de-sabre</h3>
         <p><b>Habitat:</b> Florestas densas e fendas rochosas. <b>Comportamento:</b> predador solitário de emboscada. <b>Táticas:</b> usar iscas com sangue, flechas sedativas, depois oferecer alimento para criar vínculo. <b>Recompensas:</b> peles raras, garras (para facas), companheiro de ataques furtivos.</p>
 
-        <h3>Urso das Cavernas (Ursus speluncae)</h3>
+        <h3>Urso das Cavernas</h3>
         <p><b>Habitat:</b> Caverna, bordas de floresta. <b>Comportamento:</b> territorial. <b>Táticas:</b> derrubar sentinelas, enfrentar em grupo com mamute/tigre; para domesticar, capturar filhotes e criar confiança.</p>
 
-        <h3>Lobo (Canis wenja)</h3>
+        <h3>Lobo</h3>
         <p><b>Habitat:</b> Distribuição ampla. <b>Comportamento:</b> caça em matilha, uivos. <b>Táticas:</b> usar comida para ganhar confiança; ótimo para rastrear, atacar em grupos e dispersar inimigos.</p>
 
-        <h3>Coruja (Strigidae spiritus)</h3>
+        <h3>Coruja</h3>
         <p><b>Função:</b> visão espiritual no jogo: permite marcar inimigos e pontos de interesse. <b>Táticas:</b> usar para reconhecimento; não combativa.</p>
 
         <h3>Feras lendárias</h3>
@@ -242,8 +242,7 @@
         <h2>Eventos Aleatórios & Dinâmicas Ambientais</h2>
         <p class="muted">Eventos que tornam Oros vivo: tempestades, migrações, surtos de feras e invasões de facções. Incluí propostas de eventos narrativos originais para enriquecer o compêndio.</p>
 
-        <h3>Tempestades de Areia / Neve</h3>
-        <p>Impacto: reduz visibilidade, enfraquece moral por algumas horas e altera rotas de caça. Estratégia: buscar abrigo, priorizar missões internas.</p>
+        
 
         <h3>Migração de Mamutes</h3>
         <p>Impacto: oportunidade de caça em massa; aumenta risco de encontros com facções rivais. Estratégia: posicionar armadilhas e iscas para abater juvenis (menos risco).</p>
