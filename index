@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Far Cry Primal — Enciclopédia Definitiva (Completa)</title>
+  <style>
+    :root{--accent:#c77a29;--bg-dark:#1b1207;--card:#2e1f11;--text:#f8e8c0;--muted:#bfa87a}
+    *{box-sizing:border-box;font-family:'Inter',system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    body{margin:0;background:linear-gradient(180deg,#20160c 0%, #0f0b07 100%);color:var(--text)}
+    .wrap{display:grid;grid-template-columns:320px 1fr;min-height:100vh}
+    aside{padding:20px;background:linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7));border-right:1px solid rgba(255,255,255,0.05)}
+    header h1{margin:0;font-size:20px;color:var(--accent)}header p{margin:6px 0 0;color:var(--muted)}
+    nav{margin-top:14px}nav ul{list-style:none;padding:0;margin:0}
+    nav li{margin-bottom:8px}
+    nav button{width:100%;text-align:left;padding:10px;border-radius:8px;border:0;background:rgba(255,255,255,0.03);color:var(--text);cursor:pointer}
+    nav button.active{background:rgba(199,122,41,0.22)}
+    main{padding:24px}
+    .card{background:rgba(255,255,255,0.02);border-radius:10px;padding:18px;margin-bottom:18px;border:1px solid rgba(255,255,255,0.04)}
+    h2,h3{color:var(--accent)}.muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    .item{padding:12px;border-radius:8px;background:rgba(255,255,255,0.01);cursor:pointer}
+    .detail{max-width:1100px}
+    pre{white-space:pre-wrap;background:rgba(0,0,0,0.25);padding:12px;border-radius:6px;color:var(--text)}
+    input[type=search]{width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:var(--text);margin-top:8px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    footer{color:var(--muted);font-size:13px;margin-top:12px}
+    @media(max-width:900px){.wrap{grid-template-columns:1fr}aside{order:2}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <aside>
+      <header>
+        <h1>Far Cry Primal — Enciclopédia Definitiva</h1>
+      </header>
+
+      <input id="search" type="search" placeholder="Buscar (ex.: mamute, arco, pintura)..." />
+
+      <nav>
+        <ul>
+          <li><button class="menu-btn active" data-target="lore">Lore</button></li>
+          <li><button class="menu-btn" data-target="items">Armas & Itens</button></li>
+          <li><button class="menu-btn" data-target="animals">Fauna</button></li>
+          <li><button class="menu-btn" data-target="crafting">Crafting</button></li>
+          <li><button class="menu-btn" data-target="missions">Missões</button></li>
+          <li><button class="menu-btn" data-target="paintings">Pinturas Rupestres</button></li>
+          <li><button class="menu-btn" data-target="collectibles">Colecionáveis</button></li>
+          <li><button class="menu-btn" data-target="events">Eventos & Aleatoriedades</button></li>
+        </ul>
+      </nav>
+
+      <footer></footer>
+    </aside>
+
+    <main>
+      <!-- LORE -->
+      <section id="lore" class="card detail">
+        <h2>Lore — História Completa (resumo expandido)</h2>
+        <div class="two-col">
+          <div>
+            <h3>Prólogo</h3>
+            <p>Durante uma grande caçada a mamutes a tribo Wenja sofre um ataque surpresa. Takkar perde sua tribo e parte em jornada para reconstruí-la — guiado pelo xamã Tensay e pela visão espiritual da Coruja.</p>
+
+            <h3>Conflitos</h3>
+            <p>As duas grandes facções rivais — os Udam (norte, canibais) e os Izila (sul, devotos do fogo) — são o motor do conflito. Takkar luta para unificar os Wenja, libertar prisioneiros e vencer os chefes dessas facções, culminando no duelo final em que Batari e Ull são confrontados.</p>
+          </div>
+          <div>
+            <h3>Temas</h3>
+            <ul>
+              <li>Sobrevivência e moralidade</li>
+              <li>Domesticação e vínculo com a natureza</li>
+              <li>Cultura, rituais e memória coletiva (pinturas rupestres)</li>
+            </ul>
+
+            <h3>Consequências</h3>
+            <p>Após as vitórias, Takkar grava os feitos nas cavernas e reestrutura a vida social Wenja — mas as ameaças ambientais e humanas persistem.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ITEMS -->
+      <section id="items" class="card" style="display:none">
+        <h2>Armas & Itens — Compêndio completo</h2>
+        <p class="muted">Descrição detalhada de cada arma, variante, atributos e notas de uso tático.</p>
+
+        <h3>Arcos</h3>
+        <div class="grid">
+          <div class="item"><h4>Arco de Caçador</h4><div class="muted">Descrição: arco leve e silencioso. Materiais: madeira flexível, tendões, resina.<br>Stats (modelo): alcance médio, dano médio, alta furtividade.<br>Uso tático: emboscada, headshots, abate de presas de médio porte.</div></div>
+
+          <div class="item"><h4>Arco Longo</h4><div class="muted">Descrição: construído com osso de mamute e madeira rígida. Materiais: madeira rígida, osso, resina.<br>Stats: maior alcance, dano elevado, recarga lenta.<br>Uso: combates em campo aberto, eliminar arcos inimigos à distância.</div></div>
+
+          <div class="item"><h4>Arco Composto</h4><div class="muted">Descrição: versão avançada com ligas de resina. Flechas especiais: incendiárias, venenosas, sedativas.<br>Uso: versátil — substitui várias funções com munição adequada.</div></div>
+        </div>
+
+        <h3>Lanças e Armas Brancas</h3>
+        <div class="grid">
+          <div class="item"><h4>Lança de Caça</h4><div class="muted">Descrição: ponta de pedra lascada em cabo leve.<br>Stats: dano corpo a corpo médio, pode ser arremessada.<br>Uso: caça de cervídeos e combates rápidos.</div></div>
+
+          <div class="item"><h4>Lança Reforçada</h4><div class="muted">Descrição: ponta de osso ou osso de mamute, haste encordoada.<br>Stats: maior penetração, ideal contra peles grossas.<br>Uso: enfrentar ursos e tigres, desmontar criaturas montadas.</div></div>
+
+          <div class="item"><h4>Clava / Maça</h4><div class="muted">Descrição: arma contundente feita de madeira endurecida e ossos.<br>Stats: muito dano, lento.<br>Uso: derrubar montarias e atordoar inimigos em combate corpo a corpo.</div></div>
+        </div>
+
+        <h3>Explosivos, Bombas & Armadilhas</h3>
+        <div class="grid">
+          <div class="item"><h4>Bomba de Fogo</h4><div class="muted">Componentes: resina, óleo animal, pote de barro.<br>Uso: destrói barricadas, causa pânico em tropas inimigas.</div></div>
+
+          <div class="item"><h4>Bomba de Abelhas</h4><div class="muted">Componentes: ninho de abelhas, pote de barro.<br>Uso: dispersa grupos, cria caos e ferimentos por veneno.</div></div>
+
+          <div class="item"><h4>Armadilha de Estacas</h4><div class="muted">Componentes: madeira afiada, corda.<br>Uso: defesa de trilhas, emboscadas planejadas.</div></div>
+
+          <div class="item"><h4>Rede de Captura</h4><div class="muted">Componentes: corda trançada, galhos.<br>Uso: aprisionar animais menores ou incapacitar humanos.</div></div>
+        </div>
+
+        <h3>Itens de Suporte</h3>
+        <div class="grid">
+          <div class="item"><h4>Pederneira</h4><div class="muted">Usos: acender fogo, iluminar, iniciar armadilhas incendiárias.</div></div>
+          <div class="item"><h4>Fole Simples</h4><div class="muted">Usos: endurecer resina para criação de ligas; aumenta qualidade de fusões artesanais.</div></div>
+          <div class="item"><h4>Bolsas e Mochilas</h4><div class="muted">Itens: bolsas de couro, bolsas de pele albina (raras). Aumentam carga, permitem transporte de munições especiais.</div></div>
+        </div>
+      </section>
+
+      <!-- ANIMALS -->
+      <section id="animals" class="card" style="display:none">
+        <h2>Fauna — Guia completo de espécies</h2>
+        <p class="muted">Cada entrada traz habitat, comportamento, sinais, táticas de caça, método de domesticação e recompensas.</p>
+
+        <h3>Mamute (Elephas orossensis)</h3>
+        <p><b>Habitat:</b> Planícies e margens de rios. <b>Comportamento:</b> vive em bandos; adulto alfa acompanha a manada. <b>Sinais:</b> trilhas largas, pilhas de lama e restos de pastagem. <b>Táticas de caça/domesticação:</b> isolar jovens, usar iscas fermentadas, sedação gradual; domar exige reduzir confiança do alfa através de rituais. <b>Recompensas:</b> pele pesada, presas (para ferramentas), capacidade de montaria e aríete.</p>
+
+        <h3>Tigre-dente-de-sabre (Smilodon orossis)</h3>
+        <p><b>Habitat:</b> Florestas densas e fendas rochosas. <b>Comportamento:</b> predador solitário de emboscada. <b>Táticas:</b> usar iscas com sangue, flechas sedativas, depois oferecer alimento para criar vínculo. <b>Recompensas:</b> peles raras, garras (para facas), companheiro de ataques furtivos.</p>
+
+        <h3>Urso das Cavernas (Ursus speluncae)</h3>
+        <p><b>Habitat:</b> Caverna, bordas de floresta. <b>Comportamento:</b> territorial. <b>Táticas:</b> derrubar sentinelas, enfrentar em grupo com mamute/tigre; para domesticar, capturar filhotes e criar confiança.</p>
+
+        <h3>Lobo (Canis wenja)</h3>
+        <p><b>Habitat:</b> Distribuição ampla. <b>Comportamento:</b> caça em matilha, uivos. <b>Táticas:</b> usar comida para ganhar confiança; ótimo para rastrear, atacar em grupos e dispersar inimigos.</p>
+
+        <h3>Coruja (Strigidae spiritus)</h3>
+        <p><b>Função:</b> visão espiritual no jogo: permite marcar inimigos e pontos de interesse. <b>Táticas:</b> usar para reconhecimento; não combativa.</p>
+
+        <h3>Feras lendárias</h3>
+        <p>Versões alfa/legendárias das espécies acima com estatísticas superiores e drops exclusivos (pele alfa, garras titânicas, presas cerimoniais). Exigem preparação e táticas específicas (armadilhas, bombas, uso de terreno).</p>
+      </section>
+
+      <!-- CRAFTING -->
+      <section id="crafting" class="card" style="display:none">
+        <h2>Crafting — Receitas, melhorias e árvores de upgrade</h2>
+        <p class="muted">Sistema de crafting explicado: produção básica, refinamento, forja e itens ceremoniais.</p>
+
+        <h3>Recursos básicos e como obtê-los</h3>
+        <ul>
+          <li><b>Madeira:</b> coletada de árvores comuns e seca no acampamento.</li>
+          <li><b>Pedra:</b> encontrada em leitos de rios e afloramentos rochosos.</li>
+          <li><b>Ossos:</b> obtidos de animais mortos — ossos grandes (mamute) rendem mais.</li>
+          <li><b>Peles:</b> coletadas de animais; peles alfa são raras e exigem feras lendárias.</li>
+          <li><b>Resina e Óleo:</b> resina sintetizada de plantas e gorduras animais para armas de fogo.</li>
+        </ul>
+
+        <h3>Receitas-chave (com quantidades-modelo)</h3>
+        <ul>
+          <li><b>Arco Longo:</b> 4 Madeira Rígida + 2 Osso de Mamute + 1 Resina = Arma de longo alcance.</li>
+          <li><b>Flecha Sedativa (10):</b> 10 Madeira + 3 Resina + 2 Plantas Sedativas.</li>
+          <li><b>Bomba de Fogo (3):</b> 3 Resina + 2 Óleo Animal + 3 Potes de Barro.</li>
+          <li><b>Bolsa Grande:</b> 8 Peles Comuns + 2 Peles Raras; aumenta capacidade de carga.</li>
+        </ul>
+
+        <h3>Árvore de upgrades</h3>
+        <p>1) Ferraria (nível 1) desbloqueia armas básicas. 2) Forja (nível 2) permite arcos compostos e bombas. 3) Oficina ritual (nível 3) permite itens ceremoniais e melhorias de domesticação.</p>
+      </section>
+
+      <!-- MISSIONS -->
+      <section id="missions" class="card" style="display:none">
+        <h2>Missões — Roteiros completos</h2>
+        <p class="muted">Cada missão principal apresenta objetivo, etapas, locais e recomendações táticas. Também lista missões secundárias com propósito e recompensas típicas.</p>
+
+        <h3>Missões Principais (exemplos com passos)</h3>
+        <div class="item">
+          <h4>O Chamado da Coruja</h4>
+          <p><b>Objetivo:</b> Encontrar Tensay e realizar o primeiro Ritual da Coruja.<br>
+          <b>Passos:</b> 1) Rastrear trilhas de fumaça; 2) Resgatar 3 sobreviventes; 3) Ajudar Tensay a recuperar objetos cerimoniais; 4) Participar do rito (corte mínimo para avanço).<br>
+          <b>Recompensa:</b> Habilidade de visão espiritual e acesso a câmaras xamânicas.</p>
+        </div>
+
+        <div class="item">
+          <h4>Fogo e Sangue</h4>
+          <p><b>Objetivo:</b> Derrotar Ull e enfraquecer os Udam.<br>
+          <b>Passos:</b> 1) Infiltrar acampamentos Udam; 2) Libertar prisioneiros; 3) Sabotar estoques; 4) Duelar com Ull (fase final).<br>
+          <b>Recompensa:</b> Presas de Udam (material ritual), aumento de território Wenja.</p>
+        </div>
+
+        <h3>Missões Secundárias e Desafios</h3>
+        <ul>
+          <li><b>Caça Lendária:</b> Encontrar pistas, montar armadilhas e abater a fera alfa.</li>
+          <li><b>Rituais da Aldeia:</b> Coletar plantas e objetos para festivais que aumentam moral do povo.</li>
+          <li><b>Resgates Especiais:</b> Libertar clan-de-elite preso em acampamentos Izila com recompensas únicas.</li>
+        </ul>
+      </section>
+
+      <!-- PAINTINGS -->
+      <section id="paintings" class="card" style="display:none">
+        <h2>Pinturas Rupestres — Guia interpretativo</h2>
+        <p class="muted">As pinturas contam a história oral dos povos. Aqui há catalogação fictícia de painéis importantes, sua interpretação e onde procurar tipos semelhantes.</p>
+
+        <h3>Painel 1 — A Caçada do Grande Mamute</h3>
+        <p>Descrição: figuras humanas empunhando lanças, linhas que sugerem cordas e um mamute central. Interpretação: rito de passagem e cooperação. Indício: geralmente em cavernas perto de planícies de mamutes.</p>
+
+        <h3>Painel 2 — A Noite dos Uivos</h3>
+        <p>Descrição: imagens de lobo e círculos de fogo. Interpretação: aliança com lobos (domesticação) e cerimônias noturnas.</p>
+
+        <h3>Painel 3 — A Chama e a Pedra</h3>
+        <p>Descrição: desenhos geométricos, chamas e figuras encapuzadas. Interpretação: templos Izila e oferendas. Procure em ruínas de pedra e áreas vulcânicas.</p>
+
+        <p class="muted">Nota: as interpretações são propostas originais — cada painel pode ter múltiplas leituras na narrativa do jogador.</p>
+      </section>
+
+      <!-- COLLECTIBLES -->
+      <section id="collectibles" class="card" style="display:none">
+        <h2>Colecionáveis — Inventário e utilidades</h2>
+        <p class="muted">Lista de itens colecionáveis, onde encontrá-los e como usá-los (cosmética, upgrades, lore).</p>
+
+        <h3>Tipos</h3>
+        <ul>
+          <li><b>Pinturas completas:</b> conjunto de painéis que desbloqueiam histórias e missões.</li>
+          <li><b>Troféus de caça:</b> cabeças, garras e presas usadas para upgrades e troféus de vila.</li>
+          <li><b>Artefatos Izila:</b> peças cerimoniais que abrem puzzles e portas de templo.</li>
+          <li><b>Relíquias Wenja:</b> objetos de família que aumentam moral da aldeia quando reunidos.</li>
+        </ul>
+
+        <h3>Recompensas típicas</h3>
+        <ul>
+          <li>Receitas raras de crafting</li>
+          <li>Peles alfa para upgrades de armas</li>
+          <li>Aumentos permanentes de capacidade de carga</li>
+        </ul>
+      </section>
+
+      <!-- EVENTS -->
+      <section id="events" class="card" style="display:none">
+        <h2>Eventos Aleatórios & Dinâmicas Ambientais</h2>
+        <p class="muted">Eventos que tornam Oros vivo: tempestades, migrações, surtos de feras e invasões de facções. Incluí propostas de eventos narrativos originais para enriquecer o compêndio.</p>
+
+        <h3>Tempestades de Areia / Neve</h3>
+        <p>Impacto: reduz visibilidade, enfraquece moral por algumas horas e altera rotas de caça. Estratégia: buscar abrigo, priorizar missões internas.</p>
+
+        <h3>Migração de Mamutes</h3>
+        <p>Impacto: oportunidade de caça em massa; aumenta risco de encontros com facções rivais. Estratégia: posicionar armadilhas e iscas para abater juvenis (menos risco).</p>
+
+        <h3>Surtos de Feras</h3>
+        <p>Impacto: animais alfa tornam-se territoriais; vilas próximas sofrem perda de recursos. Estratégia: domar ou atrair com iscas, usar bombas de abelhas para dispersar matilhas.</p>
+
+        <h3>Incursões de Facções</h3>
+        <p>Impacto: invasões Udam/Izila em rotas de coleta. Estratégia: patrulha, melhorar defesas e usar tácticas de emboscada.</p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    const buttons = document.querySelectorAll('.menu-btn');
+    const sections = document.querySelectorAll('main section');
+    const search = document.getElementById('search');
+
+    function show(id){
+      sections.forEach(s=> s.style.display = s.id===id ? 'block' : 'none');
+      buttons.forEach(b=> b.classList.toggle('active', b.dataset.target===id));
+      window.location.hash = id;
+      window.scrollTo(0,0);
+    }
+
+    buttons.forEach(b=> b.addEventListener('click', ()=> show(b.dataset.target)));
+
+    // full-text search across sections
+    search.addEventListener('input', ()=>{
+      const q = search.value.trim().toLowerCase();
+      if(!q){
+        // no query: show current section only (hash)
+        const id = window.location.hash.replace('#','') || 'lore';
+        show(id);
+        return;
+      }
+      // show all sections that contain the query
+      sections.forEach(sec=>{
+        const text = sec.textContent.toLowerCase();
+        sec.style.display = text.includes(q) ? 'block' : 'none';
+      });
+      buttons.forEach(b=> b.classList.remove('active'));
+    });
+
+    // open default
+    const start = window.location.hash.replace('#','') || 'lore';
+    show(start);
+  </script>
+</body>
+</html>
